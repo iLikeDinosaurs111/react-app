@@ -1,0 +1,58 @@
+.list-group {
+    padding-top: vh;
+    white-space: nowrap;
+    font-size: 1vw;
+    margin-top: 10vh;
+  }
+
+  .entire {
+    position: relative;
+    height: 70.5vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;    /* optional but nice for future layout handling */
+  }
+
+
+.label {
+    background-color: rgb(247, 247, 247);
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    z-index: 1039813;
+   font-size: 1.5vw;
+   padding-left:1.5vw;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   /* margin-bottom: 2vh; */
+   text-align: left;
+
+}
+ 
+hr {
+  margin-top: -2vh;
+}
+
+
+.nameList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.33vw;
+  }
+
+.dateList {
+    position: absolute;
+    top: 0;
+    left: 33.33vw;
+    width: 33.33vw;
+  }
+
+.statusesList {
+    position: absolute;
+    top: 0;
+    left: 66.33vw;
+    width: 33.33vw;
+  }
+
